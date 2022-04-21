@@ -20,6 +20,12 @@
           "appId": "d2mu1oy75ol4o3",
           "type": "manual"
         }
+      },
+      "function": {
+        "testsLamda": {
+          "deploymentBucketName": "amplify-reactamplified-dev-125132-deployment",
+          "s3Key": "amplify-builds/testsLamda-674f6a514f6746495941-build.zip"
+        }
       }
     }
   }

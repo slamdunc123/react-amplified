@@ -43,6 +43,15 @@ const App = () => {
     }
   }
 
+
+  useEffect(() => {
+    fetch(`https://7ciadtfhy3.execute-api.eu-west-2.amazonaws.com/dev/items`)
+    .then(response => response.json())
+    .then(data => console.log(data));
+  
+  }, [])
+  
+
   return (
     <Authenticator>
     {({ signOut, user }) => (
