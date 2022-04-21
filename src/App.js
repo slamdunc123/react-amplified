@@ -45,7 +45,7 @@ const App = () => {
 
 
   useEffect(() => {
-    fetch(`https://7ciadtfhy3.execute-api.eu-west-2.amazonaws.com/dev/items`)
+    fetch(`https://7ciadtfhy3.execute-api.eu-west-2.amazonaws.com/items`)
     .then(response => response.json())
     .then(data => console.log(data));
   
